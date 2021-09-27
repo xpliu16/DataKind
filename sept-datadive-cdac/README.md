@@ -1,3 +1,13 @@
+# Broadband.pynb
+This notebook aims to compare the Ookla database (actual Speedtest results run by users) to the FCC internet access database (advertised maximum speed provided by the ISP).
+
+1) Compares run times for four versions of weighted average aggregation to transform data at the quadtile level from Ookla to the census tract level used by FCC.
+2) Shows exploratory analysis on peculiarities of the FCC data.
+3) Explores bias in availability of Speedtest data according to Median Household Income (from the American Community Survey).
+
+Ookla dataset: https://github.com/teamookla/ookla-open-data
+FCC dataset: https://us-fcc.app.box.com/v/US-without-Sat-June2020-v1
+
 ## September DataDive for University of Chicago CDAC 
 
 Educational and economic opportunity, as well as health outcomes, depend on the availability of affordable, high-speed Internet access. The COVID-19 pandemic—and in particular society’s increasing reliance on reliable high-speed broadband Internet access during the crisis—has accelerated and magnified existing disparities. As the essential tasks of living move online, internet access is increasingly becoming an issue of economic opportunity.
