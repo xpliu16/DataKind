@@ -4,7 +4,7 @@ I participated in the September virtual Data Dive event with the organization [D
 
 Both the Ookla and FCC data sets had their own set of biases and shortcomings. The FCC data were based on ISP self-report, states advertised theoretical maximum speed, and did not address whether households were able to afford that access. Nevertheless, it showed that less affluent areas were often offered worse internet speeds, likely reflecting less investment in infrastructure in those areas. The self-reported data also contained other curiosities. For instance, the number of providers offering download speeds of at least 100 Mbps (‘dn100’) was likely to be very close to a small integer, but not quite. The histogram made me want to know more about how the providers were determining, advertising, and reporting these numbers and how they were combined. 
 
-<img src="sept-datadive-cdac\FCC_dn100_hist.png" alt="Histogram of dn100 values">
+<img src="FCC_dn100_hist.png" alt="Histogram of dn100 values">
 
 The FCC data was subject to much criticism as it seemed too coarse and flawed to form the basis for allocating funds, such as through the Rural Digital Opportunity Fund (RDOF). Comparison with other data sets have shown significant incongruence between the FCC data and actual internet speeds, e.g.:
 1.	https://www.govtech.com/biz/microsoft-speeds-show-broadband-use-is-far-lower-than-access.html
